@@ -1,0 +1,46 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PowerupSpawner : MonoBehaviour
+{
+	[SerializeField] WaveConfigSO powerUpwaveConfig;
+    [SerializeField] bool isLooping;
+    WaveConfigSO currentWave;
+
+    public float minX = -4f, maxX = 4f;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        StartCoroutine(SpawnPowerup());
+    }
+
+    public WaveConfigSO GetCurrentWave()
+    {
+		return currentWave;
+    }
+
+    IEnumerator SpawnPowerup()
+	{
+        do
+        {
+			Instantiate(GetPowerupPrefabByRandom(powerUpwaveConfig), currentWave.GetStartingWaypoint().position, Quaternion.Euler(0, 0, 180), transform);
+			yield return new WaitForSeconds(spawnRate);
+        }while (isLooping);
+	}
+
+    GameObject GetPowerupPrefabByRandom(WaveConfigSO waveConfigSO)
+    {
+        float randomValue = Random.Range(0f, 100f);
+        for(int i = 0; i < waveConfigSO.getEnemyCount(); i++)
+        {
+            Propability propability = waveConfigSO.GetEnemyPrefab(i).GetComponent<Propability>();
+            if(randomValue >= propability.minRange && randomValue <= propability.maxRange)
+            {
+				return waveConfigSO.GetEnemyPrefab(i);
+            }
+        }
+		return null;
+    }
+
+}

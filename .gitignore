@@ -1,6 +1,11 @@
 # Ignore everything
-*
-
-# But not these files and folders
-!.gitignore
-!Assets/
+Library/
+Logs/
+obj/
+Packages/
+ProjectSettings/
+Temp/
+UserSettings/
+Temp/
+Assembly-CSharp.csproj
+My project (1).sln

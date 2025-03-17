@@ -1,0 +1,69 @@
+using UnityEngine;
+
+public class Health : MonoBehaviour
+{
+	public enum CharacterType { Player, Enemy };
+	[SerializeField] CharacterType characterType;
+    [SerializeField] int health = 50;
+	[SerializeField] ParticleSystem hitEffect;
+
+	[SerializeField] bool applyCameraShake;
+	CameraShake cameraShake;
+	[SerializeField] GameObject audioPlayerObject;
+	AudioPlayer audioPlayer;
+	ScoreKeeper scoreKeeper;
+
+	private void Awake()
+	{
+		cameraShake = Camera.main.GetComponent<CameraShake>();
+		audioPlayer = audioPlayerObject.GetComponent<AudioPlayer>();
+		scoreKeeper = FindFirstObjectByType<ScoreKeeper>();
+	}
+
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		DamageDealer damageDealer = other.GetComponent<DamageDealer>();
+		Debug.Log(damageDealer.GetDamage());
+		if(damageDealer != null)
+		{
+			//take damage
+			TakeDamage(damageDealer.GetDamage());
+			PlayWithEffect();
+			ShakeCamera();
+		}
+	}
+
+	void TakeDamage(int damage)
+	{
+		health -= damage;
+		Debug.Log("Health: " + health);
+		audioPlayer.PlayDefendClip();
+		if (health <= 0)
+		{
+			audioPlayer.PlayLoseClip();
+			Destroy(gameObject);
+		}
+	}
+
+	public int getHealth()
+	{
+		return health;
+	}
+
+	void PlayWithEffect()
+	{
+		if(hitEffect != null)
+		{
+			ParticleSystem instance = Instantiate(hitEffect, transform.position, Quaternion.identity);
+			Destroy(instance.gameObject, instance.main.duration + instance.main.startLifetime.constantMax);
+		}
+	}
+
+	void ShakeCamera()
+	{
+		if(cameraShake != null && applyCameraShake)
+		{
+			cameraShake.Play();
+		}
+	}
+}
