@@ -63,12 +63,12 @@ public class Player : MonoBehaviour
 		if (collision.tag == "PowerBoldSilver")
 		{
 			Destroy(collision.gameObject);
-			ApplyPowerUp(0.75f, powerUpIcons["PowerBoldSilver"]);
+			ApplyPowerUp(0.3f, powerUpIcons["PowerBoldSilver"]);
 		}
 		if(collision.tag == "PowerBoldGold")
 		{
 			Destroy(collision.gameObject);
-			ApplyPowerUp(1f, powerUpIcons["PowerBoldGold"]);
+			ApplyPowerUp(0.25f, powerUpIcons["PowerBoldGold"]);
 		}
 	}
 
@@ -103,8 +103,8 @@ public class Player : MonoBehaviour
 		iconImage.sprite = icon;
 		powerUpUI.SetActive(true);
 		shooter.SetBaseFiringRate(initialFiringRate * multiplier);
-		shooter.SetProjectileSpeed(projectileSpeed * multiplier);
-		StartCoroutine(ResetPowerUpAfterDelay(5f));
+		shooter.SetProjectileSpeed(projectileSpeed + multiplier);
+		StartCoroutine(ResetPowerUpAfterDelay(6f));
 	}
 
 	private IEnumerator ResetPowerUpAfterDelay(float delay, Sprite icon = null)

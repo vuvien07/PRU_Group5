@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7689617234814872251}
   - component: {fileID: 5734615521702036174}
-  - component: {fileID: 6091529926150621033}
+  - component: {fileID: 7127363355946499986}
   m_Layer: 0
   m_Name: stars_1_0
   m_TagString: Untagged
@@ -88,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6091529926150621033
+--- !u!114 &7127363355946499986
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2490451619827638280}
   - component: {fileID: 3465847004896552023}
-  - component: {fileID: 2918937259627777984}
+  - component: {fileID: 7342332171460068355}
   m_Layer: 0
   m_Name: stars_0_0
   m_TagString: Untagged
@@ -189,7 +189,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2918937259627777984
+--- !u!114 &7342332171460068355
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -227,7 +227,7 @@ Transform:
   m_GameObject: {fileID: 6973318123418524690}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.8277595, y: -3.5438707, z: 0.024559533}
+  m_LocalPosition: {x: -1.8277595, y: -10.88, z: 0.024559533}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

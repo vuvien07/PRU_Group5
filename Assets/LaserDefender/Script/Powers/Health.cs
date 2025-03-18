@@ -43,6 +43,7 @@ public class Health : MonoBehaviour
 		{
 			//take damage
 			TakeDamage(damageDealer.GetDamage());
+			Destroy(other.gameObject);
 			PlayWithEffect();
 			ShakeCamera();
 		}

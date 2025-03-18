@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae53fb488c1a78d4aac9c88f6a18cd7e, type: 3}
-  m_Name: WaveConfigPath2
+  m_Name: Wave Config 3
   m_EditorClassIdentifier: 
-  pathPrefab: {fileID: 2295134523488285568, guid: 147dace9f9ea6f5488e7d09dd1cce18c, type: 3}
+  pathPrefab: {fileID: 2295134523488285568, guid: b2b919979d3716442a4e887ebfbe219b, type: 3}
   moveSpeed: 5
   enemyPrefabs:
   - {fileID: 7518185122315765959, guid: ce00a037cf309724dbbf27f0adb849e3, type: 3}
@@ -22,12 +22,12 @@ MonoBehaviour:
   - {fileID: 7518185122315765959, guid: ce00a037cf309724dbbf27f0adb849e3, type: 3}
   - {fileID: 7518185122315765959, guid: ce00a037cf309724dbbf27f0adb849e3, type: 3}
   - {fileID: 7518185122315765959, guid: ce00a037cf309724dbbf27f0adb849e3, type: 3}
-  - {fileID: 7518185122315765959, guid: 9182d560e97f7124dae0b89b3135cd17, type: 3}
-  - {fileID: 7518185122315765959, guid: 9182d560e97f7124dae0b89b3135cd17, type: 3}
-  - {fileID: 7518185122315765959, guid: 9182d560e97f7124dae0b89b3135cd17, type: 3}
-  - {fileID: 7518185122315765959, guid: 9182d560e97f7124dae0b89b3135cd17, type: 3}
-  - {fileID: 7518185122315765959, guid: 9182d560e97f7124dae0b89b3135cd17, type: 3}
-  - {fileID: 7518185122315765959, guid: 9182d560e97f7124dae0b89b3135cd17, type: 3}
+  - {fileID: 7518185122315765959, guid: 9c4e9a36dde877347ba0660175b52c56, type: 3}
+  - {fileID: 7518185122315765959, guid: 9c4e9a36dde877347ba0660175b52c56, type: 3}
+  - {fileID: 7518185122315765959, guid: 9c4e9a36dde877347ba0660175b52c56, type: 3}
+  - {fileID: 7518185122315765959, guid: 9c4e9a36dde877347ba0660175b52c56, type: 3}
+  - {fileID: 7518185122315765959, guid: 9c4e9a36dde877347ba0660175b52c56, type: 3}
+  - {fileID: 7518185122315765959, guid: 9c4e9a36dde877347ba0660175b52c56, type: 3}
   timeBetweenEnemySpawns: 1
   spawnTimeVariance: 0
   minimumSpawnTime: 0.2

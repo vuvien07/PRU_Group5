@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
@@ -25,7 +26,9 @@ public class EnemySpawner : MonoBehaviour
     {
         do
         {
-            foreach (WaveConfigSO wave in waveConfigs)
+			List<WaveConfigSO> shuffledWaves = new List<WaveConfigSO>(waveConfigs);
+			shuffledWaves = shuffledWaves.OrderBy(wave => Random.value).ToList();
+			foreach (WaveConfigSO wave in shuffledWaves)
             {
                 currentWave = wave;
                 for (int i = 0; i < currentWave.getEnemyCount(); i++)

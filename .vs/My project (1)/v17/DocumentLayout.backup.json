@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRU292\\Project\\PRU_Group5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{053EAF69-BD55-B969-145F-54D88A659B7D}|Assembly-CSharp.csproj|d:\\pru292\\project\\pru_group5\\assets\\laserdefender\\script\\dynamicobject\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053EAF69-BD55-B969-145F-54D88A659B7D}|Assembly-CSharp.csproj|solutionrelative:assets\\laserdefender\\script\\dynamicobject\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053EAF69-BD55-B969-145F-54D88A659B7D}|Assembly-CSharp.csproj|d:\\pru292\\project\\pru_group5\\assets\\laserdefender\\script\\uis\\backgroundscroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053EAF69-BD55-B969-145F-54D88A659B7D}|Assembly-CSharp.csproj|solutionrelative:assets\\laserdefender\\script\\uis\\backgroundscroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053EAF69-BD55-B969-145F-54D88A659B7D}|Assembly-CSharp.csproj|D:\\PRU292\\Project\\PRU_Group5\\assets\\laserdefender\\script\\uis\\spritescroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053EAF69-BD55-B969-145F-54D88A659B7D}|Assembly-CSharp.csproj|solutionrelative:assets\\laserdefender\\script\\uis\\spritescroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053EAF69-BD55-B969-145F-54D88A659B7D}|Assembly-CSharp.csproj|D:\\PRU292\\Project\\PRU_Group5\\assets\\laserdefender\\script\\powers\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053EAF69-BD55-B969-145F-54D88A659B7D}|Assembly-CSharp.csproj|solutionrelative:assets\\laserdefender\\script\\powers\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053EAF69-BD55-B969-145F-54D88A659B7D}|Assembly-CSharp.csproj|D:\\PRU292\\Project\\PRU_Group5\\assets\\laserdefender\\script\\uis\\pathfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053EAF69-BD55-B969-145F-54D88A659B7D}|Assembly-CSharp.csproj|solutionrelative:assets\\laserdefender\\script\\uis\\pathfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObstacleSpawner.cs",
+              "DocumentMoniker": "D:\\PRU292\\Project\\PRU_Group5\\Assets\\LaserDefender\\Script\\DynamicObject\\ObstacleSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\LaserDefender\\Script\\DynamicObject\\ObstacleSpawner.cs",
+              "ToolTip": "D:\\PRU292\\Project\\PRU_Group5\\Assets\\LaserDefender\\Script\\DynamicObject\\ObstacleSpawner.cs",
+              "RelativeToolTip": "Assets\\LaserDefender\\Script\\DynamicObject\\ObstacleSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:50:16.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BackgroundScroller.cs",
+              "DocumentMoniker": "D:\\PRU292\\Project\\PRU_Group5\\Assets\\LaserDefender\\Script\\UIs\\BackgroundScroller.cs",
+              "RelativeDocumentMoniker": "Assets\\LaserDefender\\Script\\UIs\\BackgroundScroller.cs",
+              "ToolTip": "D:\\PRU292\\Project\\PRU_Group5\\Assets\\LaserDefender\\Script\\UIs\\BackgroundScroller.cs",
+              "RelativeToolTip": "Assets\\LaserDefender\\Script\\UIs\\BackgroundScroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:36:06.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpriteScroller.cs",
+              "DocumentMoniker": "D:\\PRU292\\Project\\PRU_Group5\\Assets\\LaserDefender\\Script\\UIs\\SpriteScroller.cs",
+              "RelativeDocumentMoniker": "Assets\\LaserDefender\\Script\\UIs\\SpriteScroller.cs",
+              "ToolTip": "D:\\PRU292\\Project\\PRU_Group5\\Assets\\LaserDefender\\Script\\UIs\\SpriteScroller.cs",
+              "RelativeToolTip": "Assets\\LaserDefender\\Script\\UIs\\SpriteScroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T16:28:24.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Health.cs",
+              "DocumentMoniker": "D:\\PRU292\\Project\\PRU_Group5\\Assets\\LaserDefender\\Script\\Powers\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\LaserDefender\\Script\\Powers\\Health.cs",
+              "ToolTip": "D:\\PRU292\\Project\\PRU_Group5\\Assets\\LaserDefender\\Script\\Powers\\Health.cs",
+              "RelativeToolTip": "Assets\\LaserDefender\\Script\\Powers\\Health.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwC0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T16:21:07.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pathfinder.cs",
+              "DocumentMoniker": "D:\\PRU292\\Project\\PRU_Group5\\Assets\\LaserDefender\\Script\\UIs\\Pathfinder.cs",
+              "RelativeDocumentMoniker": "Assets\\LaserDefender\\Script\\UIs\\Pathfinder.cs",
+              "ToolTip": "D:\\PRU292\\Project\\PRU_Group5\\Assets\\LaserDefender\\Script\\UIs\\Pathfinder.cs",
+              "RelativeToolTip": "Assets\\LaserDefender\\Script\\UIs\\Pathfinder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T16:20:25.297Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

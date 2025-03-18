@@ -101,6 +101,7 @@ GameObject:
   - component: {fileID: 2508786230447149405}
   - component: {fileID: 5565612823090858878}
   - component: {fileID: 7715874059625081339}
+  - component: {fileID: 5536802988702151435}
   m_Layer: 7
   m_Name: enemy 0
   m_TagString: Untagged
@@ -239,3 +240,16 @@ MonoBehaviour:
   minimumFiringRate: 0.1
   isEnemy: 1
   audioPlayerObject: {fileID: 2055877997411639538, guid: 40d890d2e6c87b941a3b8fed84ffce53, type: 3}
+--- !u!114 &5536802988702151435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7518185122315765959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9db3abca0130d94e866a5b50361f083, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 50
